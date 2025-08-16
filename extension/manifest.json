@@ -1,0 +1,29 @@
+{
+    "name": "Scraping",
+    "description": "Scraping extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "http://localhost:3000/"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*"],
+      "js": ["content.js"]
+    }
+    ],
+    "icons": {
+        "16": "/images/clipart1120729.png",
+        "32": "/images/clipart1120729.png",
+        "48": "/images/clipart1120729.png"
+    }
+}

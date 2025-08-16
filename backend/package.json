@@ -1,0 +1,28 @@
+{
+  "name": "atg_i_p",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000i\u0000t\u0000l\u0000e\u0000_\u0000p\u0000i\u0000c\u0000k\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAINNIKHIL/title_picker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAINNIKHIL/title_picker/issues"
+  },
+  "homepage": "https://github.com/KAINNIKHIL/title_picker#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module"
+}

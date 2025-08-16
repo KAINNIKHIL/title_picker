@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+
+}
+.wrapper{
+    width: 300px;
+    text-align: center;
+}
+#start{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: plum;
+    cursor: pointer;
+}
